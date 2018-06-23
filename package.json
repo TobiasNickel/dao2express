@@ -1,0 +1,19 @@
+{
+  "name": "dao2express",
+  "description": "dao for mongodb",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Tobias Nickel"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "tmongodao": "0.0.10",
+    "tfilemonk": "0.0.2"
+
+  }
+}
