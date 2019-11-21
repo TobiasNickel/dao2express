@@ -22,8 +22,8 @@ module.exports = {
         tags: ['tobias'],
     });
     await userDao.fetchPictures(tobias);
-    await userDao.removeBy_id(tobias._id);
-    await pictureDao.removeByUploader(tobias._id);
+    // await userDao.removeBy_id(tobias._id);
+    // await pictureDao.removeByUploader(tobias._id);
 })().catch(err => {
     console.log(err)
     process.exit();

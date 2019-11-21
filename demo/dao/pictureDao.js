@@ -13,6 +13,6 @@ module.exports.pictureDao = db.prepareDao({
     },
     relations: {
         // to load pictures from a pictures dao or collection
-        uploader: { collection: 'user', localKey: 'uploader', foreignKey: "_id", multiple: true }
+        uploader: { collection: 'user', localKey: 'uploader', foreignKey: '_id', multiple: true }
     }
 });

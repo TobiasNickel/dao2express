@@ -8,7 +8,7 @@ module.exports.userDao = db.prepareDao({
         password: 'string?',
         age: 'number?',
     },
-    map:user=>{
+    map: user => {
         delete user.password;
         return user;
     },

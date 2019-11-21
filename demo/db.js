@@ -2,7 +2,7 @@ const tmongodao = require('tmongodao');
 const tfilemonk = require('tfilemonk')
 const fs = require('fs');
 
-const filename = '../data.js';
+const filename = __dirname+'/../data.js';
 //try{fs.unlinkSync(filename);}catch(err){}
 tfilemonk({filename});
 
